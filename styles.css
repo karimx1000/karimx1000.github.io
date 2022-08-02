@@ -27,24 +27,28 @@
         background-color: #111;
       }
 body{
-    background-color: gray;
+    background-image: url("img2.jpg");
 }
-div.dev{
+ul.dev{
     text-align: center;
-    margin-top: 400px;
-    color: rgb(10, 64, 169);
+    margin-top: 500px;
+    color: rgb(12, 80, 218);
     font-size: smaller;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(66, 65, 65);
 }
 h1.welcome{
   text-align: center;
   font-size: 50px;
-  color: white;
+  color: #333;
   font-family: 'Comic Neue', cursive;
 }
 h1.intro,h2.intro{
   text-align: center;
   margin-top: 100px;
   padding: -50px;
+  color: rgb(255, 255, 255);
   font-family: "Merriweather Sans" , sans-serif;
 }
