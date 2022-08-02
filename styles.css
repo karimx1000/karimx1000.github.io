@@ -1,11 +1,19 @@
-.Options{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
-    font-size: 20px;
-    color: aquamarine;
-    margin-bottom: 100px;
+
+.parent-element {
+    display: flex;
+    color: black;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium',sans-serif;
     margin-top: 75px;
+    font-size: 20px;
+    font-style: italic;
+    color: aquamarine;
     margin-left: 200px;
-}
+    }
+    #contact {
+    margin-right: 25px;
+    }
+
 body{
     background-color: gray;
 }
