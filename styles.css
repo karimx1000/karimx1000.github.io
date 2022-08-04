@@ -39,7 +39,8 @@ ul.dev{
 h1.welcome{
   text-align: center;
   font-size: 50px;
-  color: #333;
+  color: white;
+  font-style: italic;
   font-family: 'Comic Neue', cursive;
 }
 h1.intro,h2.intro{
