@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Merriweather+Sans&family=Roboto+Slab&display=swap');
 
     ul.Options {
         list-style-type: none;
@@ -9,6 +9,7 @@
         margin-right: 25px;
         margin-left: 25px;
         margin-top: 100px;
+        font-family: "Roboto Slab", serif;
       }
       
       li a {
