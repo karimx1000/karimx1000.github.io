@@ -27,3 +27,8 @@ h1.others{
     color: white;
     font-family: 'Comic Neue', cursive;
 }
+p.myw{
+    color:white;
+    font-family:  "Merriweather Sans" , sans-serif;
+    margin-bottom: 60px;
+}
