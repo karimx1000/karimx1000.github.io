@@ -8,9 +8,11 @@ function opendis()
 dev.onclick = opendis;
 
 const aaa = document.querySelector('.myw');
+const aaaaa = document.querySelector('.myw a');
 
-aaa.addEventListener('click', (e) => {
-    window.open("https://en.wikipedia.org/wiki/CSS", "_blank");
-    e.preventDefault();
+aaaaa.onclick = function (e) {
     e.stopPropagation();
-  });
+}
+aaa.onclick = function (e) {
+    window.open("https://en.wikipedia.org/wiki/CSS", "_blank");
+}
