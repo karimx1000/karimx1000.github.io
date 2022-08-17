@@ -7,10 +7,10 @@ function opendis()
 
 dev.onclick = opendis;
 
-const aaa = document.getElementsByClassName("myw");
+const aaa = document.querySelector('.myw');
 
-function opencss()
-{
+aaa.addEventListener('click', (e) => {
     window.open("https://en.wikipedia.org/wiki/CSS", "_blank");
-}
-aaa.onclick = opencss
+    e.preventDefault();
+    e.stopPropagation();
+  });
